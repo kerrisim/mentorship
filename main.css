@@ -1,8 +1,16 @@
-html {
-    background-color: #FAFCFF;
+.container {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 @media screen and (min-width: 781px) {
-    .menu{
+    html {
+        background-color: #F8F8FA;
+    }
+    .title {
+        margin-bottom: 10%;
+        font-size: 1.5em;
+    }
+    .menu {
         list-style: none;
         font-weight: 600;
         margin: 0;
@@ -59,9 +67,18 @@ html {
     
 }
 @media screen and (max-width: 780px) {
-    .menu {
+    html {
+        background-color: #F8F8FA;
+    }
+    .title {
+        text-align: center;
+        margin-bottom: 5%;
+        font-size: 1.5em;
+    }
+    .menu {        
         list-style: none;
         font-weight: 600;
+        display: table;
         margin: 0 auto;
     }
     .menu li {
@@ -78,9 +95,6 @@ html {
     }
     .menu-container {
         margin: 10%;
-    }
-    .container {
-        font-family: 'Open Sans', sans-serif;
     }
     .message {
         margin: 5%;
